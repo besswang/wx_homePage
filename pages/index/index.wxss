@@ -3,12 +3,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin:30rpx 15rpx 11rpx 0;
+  margin:30rpx 15rpx 9rpx 0;
   padding-left:15rpx;
 }
 .text-all{
   color:#3385ff;
-  font-size: 10px
+  font-size: 12px
 }
 .content{
   display: flex;
@@ -20,7 +20,7 @@
   width:45%;
   height:200rpx;
   background:green;
-  margin:4rpx;
+  margin:6rpx;
   position: relative;
 }
 .content-item image{
@@ -59,4 +59,5 @@
 }
 .list-item-images .nomalImg{
   height:100%;
+  width:100%;
 }

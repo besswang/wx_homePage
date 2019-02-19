@@ -5,17 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imgUrls: ['../../images/a.jpg', '../../images/a.jpg','../../images/a.jpg'],
+    imgUrls: ['https://ww1.sinaimg.cn/large/663d3650gy1fq66vw50iwj20ff0aaaci.jpg', 'https://ww1.sinaimg.cn/large/663d3650gy1fq66vvsr72j20p00gogo2.jpg','https://ww1.sinaimg.cn/large/663d3650gy1fq66vw1k2wj20p00goq7n.jpg'],
     contentItems:[
       { img: '../../images/a.jpg', text:'这是第一块文字' },
-      { img: '../../images/a.jpg', text: '这是第二块文字' },
-      { img: '../../images/a.jpg', text: '这是第三块文字' },
-      { img: '../../images/a.jpg', text: '这是第四块文字' }
+      { img: 'https://ww1.sinaimg.cn/large/663d3650gy1fq66vw50iwj20ff0aaaci.jpg', text: '这是第二块文字' },
+      { img: 'https://ww1.sinaimg.cn/large/663d3650gy1fq66vvsr72j20p00gogo2.jpg', text: '这是第三块文字' },
+      { img: 'https://ww1.sinaimg.cn/large/663d3650gy1fq66vw1k2wj20p00goq7n.jpg', text: '这是第四块文字' }
     ],
     listItem:[
       { img: '../../images/a.jpg', text: '这是第一块文字' },
-      { img: '../../images/a.jpg', text: '这是第一块文字发动反击两地分发动机来访接待来访接待来访居发的老妇见到了费德勒' },
-      { img: '../../images/a.jpg', text: '这是第一块文字' }
+      { img: 'https://ww1.sinaimg.cn/large/663d3650gy1fq66vw50iwj20ff0aaaci.jpg', text: '这是第一块文字发动反击两地分发动机来访接待来访接待来访居发的老妇见到了费德勒' },
+      { img: 'https://ww1.sinaimg.cn/large/663d3650gy1fq66vvsr72j20p00gogo2.jpg', text: '这是第一块文字' }
     ]
   },
 
