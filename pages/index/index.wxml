@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<!-- indicator-dots:是否显示面板指示点,默认false;
+autoplay: 是否自动切换，默认false；
+interval: 自动切换事件间隔；默认5000
+duration: 滑动动画时长,默认500 -->
+<view class="container">
+  <swiper
+    indicator-dots=true
+    autoplay=true
+    interval="3000"
+    duration="600"
+    style='width:100%'
+  >
+    <block wx:for="{{imgUrls}}" wx:key="">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" style='width:100%;' />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='section'>
+    <view class='header'>
+      <text>精品推荐</text>
+      <text class='text-all'>全部精品</text>
+    </view>
+    <view class='content'>
+      <view class='content-item' wx:for="{{contentItems}}" wx:key="">
+          <image src='{{item.img}}' mode="aspectFill"></image>
+          <view class='content-item-text'>
+            <text>{{item.text}}</text>
+          </view>
+      </view>
+    </view>
+  </view>
+  <view class='section'>
+    <view class='header'>
+      <text>热门评测</text>
+      <text class='text-all'>全部评测</text>
+    </view>
+    <view class='list-item' wx:for="{{listItem}}" wx:key="">
+      <view class='list-item-images'>
+        <image src='{{item.img}}' mode="aspectFill" class='nomalImg'></image>
+        <image src='{{item.img}}' class='icon'></image>
+      </view>
+      <view class='list-item-text'>
+        <text>{{item.text}}</text>
+      </view>
+    </view>
+  </view>
+</view>
