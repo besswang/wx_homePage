@@ -3,7 +3,7 @@
 
 ## 知识点
 ![](images/show2.jpg)
-##### 文字分布左右两端，上下对齐  
+##### 文字分布左右两端，上下对齐 ，如上图 
  display: flex;
  justify-content: space-between;
  align-items: center;
